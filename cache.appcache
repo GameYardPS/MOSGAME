@@ -1,10 +1,12 @@
 CACHE MANIFEST
+# Arabic storefront revision 2026-10-20
 # MOSGAME visual identity v1 / 2026-10-19 — original engine files preserved
 
 CACHE:
 index.html
 assets/mosgame-mark.svg
 assets/controller.svg
+assets/console.svg
 assets/mosgame.css
 
 NETWORK:
