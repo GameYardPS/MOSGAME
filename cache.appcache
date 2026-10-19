@@ -1,10 +1,11 @@
 CACHE MANIFEST
-# Legacy cache migration: Hazzaz Store multi-firmware v4 / 2026-10-06
+# MOSGAME visual identity v1 / 2026-10-19 — original engine files preserved
 
 CACHE:
 index.html
-hazzaz-logo-red.jpg
-hazzaz-store-banner.jpg
+assets/mosgame-mark.svg
+assets/controller.svg
+assets/mosgame.css
 
 NETWORK:
 *

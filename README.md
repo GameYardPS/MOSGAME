@@ -1,22 +1,20 @@
-# Hazzaz Store PS4 Multi-Firmware Host
+# MOSGAME — الموسوعة الإلكترونية
 
-واجهة Hazzaz Store العربية لتشغيل GoldHEN مع اختيار المحرك المناسب تلقائيًا ودعم التخزين دون اتصال.
+PS4 GoldHEN host with an independent yellow and black MOSGAME design.
 
-## الإصدارات المدعومة
+## Included software
 
-- 7.00–8.52
-- 9.00–9.60
-- 10.00–11.02
-- 11.50–12.02
-- 12.50–13.00
-- 13.02–13.52
+GoldHEN **v2.4b18.12** and the original firmware-routing engines are preserved from [Hazzaz Store](https://github.com/HazzazStore/hazzazstore.github.io), source commit `0ab33a34c6f28a769c433029c131dc55b4baee58`.
 
-## المصدر
+The 89 JavaScript, BIN and ELF files remain byte-identical. The original engine license notices and credits are retained. See [upstream details](docs/UPSTREAM.md).
 
-تعتمد ملفات التشغيل متعددة الإصدارات على مجلد `g2all` من مستودع `gamerhack/gamerhack.github.io` عند المراجعة:
+## Hosting
 
-`066f5b456f2fb9da47bfb7f6b9ddc8e599cee30f`
+This repository is a static website. Publish the `main` branch from `/ (root)` through GitHub Pages. `.nojekyll` is included. All assets and engine files are local, and URLs are relative so project-site hosting works.
 
-إصدار GoldHEN المضمّن: `v2.4b18.12`، مع محرك التشغيل وملفات الكاش المحدّثة بتاريخ 2026-10-06.
+The cache pages use the original PS4 Application Cache behavior. Actual GoldHEN operation and offline use require a compatible physical PS4.
 
-التعديلات الخاصة بـHazzaz Store محصورة في الواجهة، التوجيه حسب الإصدار، رسائل الحالة، الصور، وملفات التخزين. ملفات المحرك الأصلية محفوظة مع إشعارات ترخيصها.
+## Contact
+
+الموسوعة الإلكترونية — 0926590450  
+طرابلس، شارع الكندي أمام فندق السفير.

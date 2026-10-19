@@ -1,9 +1,10 @@
 CACHE MANIFEST
-# Hazzaz Store multi-firmware cache 2026-10-06 / 700-v2
+# MOSGAME visual identity v1 / 2026-10-19 — original engine files preserved
 
 CACHE:
-hazzaz-logo-red.jpg
-hazzaz-store-banner.jpg
+assets/mosgame-mark.svg
+assets/controller.svg
+assets/mosgame.css
 cache700.html
 goldhen_2.4b18.12.bin
 index.html
