@@ -1,20 +1,24 @@
-# MOSGAME — الموسوعة الإلكترونية
+# الموسوعة الإلكترونية — MOSGAME
 
-PS4 GoldHEN host with an independent yellow and black MOSGAME design.
+صفحة جلبريك وجولدهن لأجهزة بلايستيشن ٤ بواجهة عربية وخلفية ألعاب سوداء وصفراء. لا تتضمن الصفحة أقسام بيع أو تسويق.
 
-## Included software
+## ملفات التشغيل
 
-GoldHEN **v2.4b18.12** and the original firmware-routing engines are preserved from [Hazzaz Store](https://github.com/HazzazStore/hazzazstore.github.io), source commit `0ab33a34c6f28a769c433029c131dc55b4baee58`.
+حُفظت ملفات المحركات وجولدهن الأصلية دون تعديل: **89 ملفًا من نوع JS وBIN وELF** من [Hazzaz Store](https://github.com/HazzazStore/hazzazstore.github.io)، الإصدار المرجعي `0ab33a34c6f28a769c433029c131dc55b4baee58`.
 
-The 89 JavaScript, BIN and ELF files remain byte-identical. The original engine license notices and credits are retained. See [upstream details](docs/UPSTREAM.md).
+جولدهن: `v2.4b18.12`. تفاصيل المصدر وإشعاراته في [توثيق المصدر](docs/UPSTREAM.md).
 
-## Hosting
+## النشر
 
-This repository is a static website. Publish the `main` branch from `/ (root)` through GitHub Pages. `.nojekyll` is included. All assets and engine files are local, and URLs are relative so project-site hosting works.
+موقع ساكن جاهز للنشر من فرع `main` ومجلد الجذر `/`. جميع الملفات والصور محلية، والروابط نسبية لتناسب GitHub Pages. صفحات التخزين تستخدم Application Cache الأصلي لجهاز بلايستيشن ٤.
 
-The cache pages use the original PS4 Application Cache behavior. Actual GoldHEN operation and offline use require a compatible physical PS4.
+تشغيل الجلبريك والتخزين دون اتصال يتطلبان جهاز بلايستيشن ٤ فعليًا بإصدار مدعوم، ولم يُختبرا على جهاز فعلي في هذه الجلسة.
 
-## Contact
+## التصميم
+
+أُنشئت خلفية الألعاب خصيصًا لهذه الواجهة بالاستعانة بتوليد الصور، بألوان سوداء وصفراء وصور ألعاب مختلفة عن المرجع. الاسم العربي وزر التشغيل ورسائل الحالة نصوص فعلية في HTML.
+
+## المحل
 
 الموسوعة الإلكترونية — 0926590450  
 طرابلس، شارع الكندي أمام فندق السفير.
